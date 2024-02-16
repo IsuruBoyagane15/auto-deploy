@@ -1,7 +1,7 @@
 import ballerina/http;
 
-service / on new http:Listener(8100) {
+service / on new http:Listener(9090) {
     resource function get .() returns string|error {
-        return "Hello, I am foo running in 8100 ne cm";
+        return "Hello, I am foo running in back to 9090";
     }
 }
